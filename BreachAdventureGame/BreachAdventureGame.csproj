@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,6 +79,96 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\173_entrance_dark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_173_entrance_dark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StoreroomCloset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CheckpointFlashingScreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lockroom_inside.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SCP-096.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smoke.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lczTeslaGate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\telsaShock.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teslaShock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\914.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\storeroomCloset2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scp173.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doorClose.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SCP-173Death.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\levelTwo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scp914.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dust.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SeniorScientist.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\omniCard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\playingCard.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warhead.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nuke.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gateA.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alarm2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Footsteps-SoundBible.com-534261997.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\P90 Gun Fire-SoundBible.com-1098578777.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Air Leaking Out Sound-SoundBible.com-714635080.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\096_1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\096_3.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -46,13 +46,18 @@
             // outputLabel
             // 
             this.outputLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.outputLabel.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.outputLabel.Location = new System.Drawing.Point(12, 9);
             this.outputLabel.Name = "outputLabel";
             this.outputLabel.Size = new System.Drawing.Size(776, 74);
             this.outputLabel.TabIndex = 0;
+            this.outputLabel.Text = "You are a test subject in an underground facility. The facility is currently havi" +
+    "ng a containment breach. You must escape!";
             // 
             // sceneImage
             // 
+            this.sceneImage.BackgroundImage = global::BreachAdventureGame.Properties.Resources.Start;
+            this.sceneImage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.sceneImage.Location = new System.Drawing.Point(15, 86);
             this.sceneImage.Name = "sceneImage";
             this.sceneImage.Size = new System.Drawing.Size(773, 239);
@@ -92,25 +97,30 @@
             // redLabel
             // 
             this.redLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.redLabel.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.redLabel.Location = new System.Drawing.Point(70, 352);
             this.redLabel.Name = "redLabel";
-            this.redLabel.Size = new System.Drawing.Size(208, 15);
+            this.redLabel.Size = new System.Drawing.Size(293, 28);
             this.redLabel.TabIndex = 5;
+            this.redLabel.Text = "Left wing";
             // 
             // blueLabel
             // 
             this.blueLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.blueLabel.Location = new System.Drawing.Point(70, 405);
+            this.blueLabel.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.blueLabel.Location = new System.Drawing.Point(70, 407);
             this.blueLabel.Name = "blueLabel";
-            this.blueLabel.Size = new System.Drawing.Size(208, 15);
+            this.blueLabel.Size = new System.Drawing.Size(312, 32);
             this.blueLabel.TabIndex = 6;
+            this.blueLabel.Text = "Right wing";
             // 
             // greenLabel
             // 
             this.greenLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.greenLabel.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.greenLabel.Location = new System.Drawing.Point(443, 367);
             this.greenLabel.Name = "greenLabel";
-            this.greenLabel.Size = new System.Drawing.Size(208, 15);
+            this.greenLabel.Size = new System.Drawing.Size(236, 26);
             this.greenLabel.TabIndex = 7;
             // 
             // Form1
