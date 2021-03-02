@@ -91,9 +91,27 @@ namespace BreachAdventureGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
+        internal static System.IO.UnmanagedMemoryStream closeDoor {
+            get {
+                return ResourceManager.GetStream("closeDoor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
         internal static System.IO.UnmanagedMemoryStream crying {
             get {
                 return ResourceManager.GetStream("crying", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream dangerAmbient {
+            get {
+                return ResourceManager.GetStream("dangerAmbient", resourceCulture);
             }
         }
         
@@ -129,9 +147,36 @@ namespace BreachAdventureGame.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
+        internal static System.IO.UnmanagedMemoryStream endBeep {
+            get {
+                return ResourceManager.GetStream("endBeep", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream enter914 {
+            get {
+                return ResourceManager.GetStream("enter914", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
         internal static System.IO.UnmanagedMemoryStream footsteps {
             get {
                 return ResourceManager.GetStream("footsteps", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream freedomTheme {
+            get {
+                return ResourceManager.GetStream("freedomTheme", resourceCulture);
             }
         }
         
@@ -176,12 +221,39 @@ namespace BreachAdventureGame.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream machineOn {
+            get {
+                return ResourceManager.GetStream("machineOn", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream neckSnap {
+            get {
+                return ResourceManager.GetStream("neckSnap", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap nuke {
             get {
                 object obj = ResourceManager.GetObject("nuke", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Nuke_Explosion {
+            get {
+                return ResourceManager.GetStream("Nuke_Explosion", resourceCulture);
             }
         }
         
@@ -201,6 +273,15 @@ namespace BreachAdventureGame.Properties {
         internal static System.IO.UnmanagedMemoryStream p90 {
             get {
                 return ResourceManager.GetStream("p90", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream pickUp {
+            get {
+                return ResourceManager.GetStream("pickUp", resourceCulture);
             }
         }
         
@@ -301,6 +382,33 @@ namespace BreachAdventureGame.Properties {
             get {
                 object obj = ResourceManager.GetObject("storeroomCloset2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream tacticalNukeCountdown {
+            get {
+                return ResourceManager.GetStream("tacticalNukeCountdown", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Tesla_Gate_Shock {
+            get {
+                return ResourceManager.GetStream("Tesla_Gate_Shock", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Tesla_Gate_WindUp {
+            get {
+                return ResourceManager.GetStream("Tesla_Gate_WindUp", resourceCulture);
             }
         }
         

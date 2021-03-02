@@ -170,5 +170,47 @@
   <ItemGroup>
     <None Include="Resources\096_3.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maxresdefault.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Checkpoint Closing Alarm.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tesla Gate Shock.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tesla Gate WindUp.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\178ambient.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A-Tone-His_Self-1266414414.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close Vault Or Jail Door-SoundBible.com-1221913084.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\neck_snap_1.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Machine.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\914.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Satiate.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tactical-nuke-countdown-sound-effect.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuke Explosion.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Censored_Beep-Mastercard-569981218.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

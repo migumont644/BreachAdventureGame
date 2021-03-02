@@ -121,16 +121,16 @@ namespace BreachAdventureGame
                     break;
                 case 2:
                     sceneImage.BackgroundImage = Properties.Resources.lczTeslaGate;
+                    sceneSound = new SoundPlayer(Properties.Resources.Tesla_Gate_WindUp);
+                    sceneSound.Play();
                     outputLabel.Text = "You walk into a hallway with a weird looking gate. Its making electric sounds.";
                     redLabel.Text = "Take the risk to run though";
                     blueLabel.Text = "Go back to the other wing";
                     greenLabel.Text = "";
                     break;
                 case 3:
-                    sceneImage.BackgroundImage = Properties.Resources.lockroomInside;
-                    sceneSound = new SoundPlayer(Properties.Resources.airLeaking);
-                    sceneSound.Play();
-                    sceneSound = new SoundPlayer(Properties.Resources.death);
+                    sceneImage.BackgroundImage = Properties.Resources.lockroomInside;                 
+                    sceneSound = new SoundPlayer(Properties.Resources.crying);
                     sceneSound.Play();
                     outputLabel.Text = "You see that this room has a gas leak, but you hear crying at the corner of the room. You have to go though this room";
                     redLabel.Text = "Wear the broken gas mask";
@@ -148,6 +148,8 @@ namespace BreachAdventureGame
                     break;
                 case 5:
                     sceneImage.BackgroundImage = Properties.Resources.teslaShock;
+                    sceneSound = new SoundPlayer(Properties.Resources.Tesla_Gate_Shock);
+                    sceneSound.Play();
                     outputLabel.Text = "You're not fast enough. You get shock and die instantly to the tesla gate. \"Subject D-9341 killed by the Tesla Gate at [REDACTED].\" Do you want to try again?";
                     redLabel.Text = "Yes";
                     blueLabel.Text = "No";
@@ -155,6 +157,8 @@ namespace BreachAdventureGame
                     break;
                 case 6:
                     sceneImage.BackgroundImage = Properties.Resources.storeroomCloset;
+                    sceneSound = new SoundPlayer(Properties.Resources.footsteps);
+                    sceneSound.Play();
                     outputLabel.Text = "You made it past the tesla gate. That was a close one. You find yourself in room with items on the shelves.";
                     redLabel.Text = "Take the time to look for better loot";
                     blueLabel.Text = "Grab one item and go";
@@ -162,6 +166,8 @@ namespace BreachAdventureGame
                     break;
                 case 7:
                     sceneImage.BackgroundImage = Properties.Resources.scp096;
+                    sceneSound = new SoundPlayer(Properties.Resources.death);
+                    sceneSound.Play();
                     outputLabel.Text = "You put on the gas mask protecting you from the smoke. You walk in, and see the face of the crying creature. It become enrage and kills you. \"A large amount of blood found in [DATA REDACTED]. DNA identified as Subject D-9341. Most likely [DATA REDACTED] by SCP-096.\" Do you want to try again ? ";
                     redLabel.Text = "Yes";
                     blueLabel.Text = "No";
@@ -169,6 +175,8 @@ namespace BreachAdventureGame
                     break;
                 case 8:
                     sceneImage.BackgroundImage = Properties.Resources.smoke;
+                    sceneSound = new SoundPlayer(Properties.Resources.airLeaking);
+                    sceneSound.Play();
                     outputLabel.Text = "You hold your breath in, and blindly run in the room. The smoke is preventing you from opening your eyes. You run past the crying creature safe and sound. Where do you want to go next?";
                     redLabel.Text = "Checkpoint";
                     blueLabel.Text = "Room SCP 914";
@@ -176,6 +184,8 @@ namespace BreachAdventureGame
                     break;
                 case 9:
                     sceneImage.BackgroundImage = Properties.Resources.scp173;
+                    sceneSound = new SoundPlayer(Properties.Resources.dangerAmbient);
+                    sceneSound.Play();
                     outputLabel.Text = "Looks like taking the time to look pay off. You grab a level 2, and a document about SCP 914, but all of a sudden a peanut shape statue blocks your way. What do you do?";
                     redLabel.Text = "Blink";
                     blueLabel.Text = "Stare";
@@ -183,6 +193,8 @@ namespace BreachAdventureGame
                     break;
                 case 10:
                     sceneImage.BackgroundImage = Properties.Resources.levelTwo;
+                    sceneSound = new SoundPlayer(Properties.Resources.pickUp);
+                    sceneSound.Play();
                     outputLabel.Text = "You grab a level 2 keycard and continue on not wanting to be caught.";
                     redLabel.Text = "";
                     blueLabel.Text = "";
@@ -190,6 +202,8 @@ namespace BreachAdventureGame
                     break;
                 case 11:
                     sceneImage.BackgroundImage = Properties.Resources.checkpointFlashingScreen;
+                    sceneSound = new SoundPlayer(Properties.Resources.p90);
+                    sceneSound.Play();
                     outputLabel.Text = "You go to see that the checkpoint is on lockdown. You can't open it with your keycard. Unfortunately a guard spotted you, shooting till you are dead. \"Agent G. to control. Eliminated a Class D escapee\" Do you want to try again?";
                     redLabel.Text = "Yes";
                     blueLabel.Text = "No";
@@ -197,6 +211,8 @@ namespace BreachAdventureGame
                     break;
                 case 12:
                     sceneImage.BackgroundImage = Properties.Resources.scp173Death;
+                    sceneSound = new SoundPlayer(Properties.Resources.neckSnap);
+                    sceneSound.Play();
                     outputLabel.Text = "You blink and the statue snaps your neck without realizing what happen. \"Subject D-9341: Fatal cervical fracture. Assumed to be attacked by SCP-173.\" Do you want to try again?";
                     redLabel.Text = "Yes";
                     blueLabel.Text = "No";
@@ -204,6 +220,8 @@ namespace BreachAdventureGame
                     break;
                 case 13:
                     sceneImage.BackgroundImage = Properties.Resources.doorClose;
+                    sceneSound = new SoundPlayer(Properties.Resources.closeDoor);
+                    sceneSound.Play();
                     outputLabel.Text = "You stare at the statue, walk past it and shut the door on it. You move on.";
                     redLabel.Text = "";
                     blueLabel.Text = "";
@@ -211,6 +229,8 @@ namespace BreachAdventureGame
                     break;
                 case 14:
                     sceneImage.BackgroundImage = Properties.Resources.scp914;
+                    sceneSound = new SoundPlayer(Properties.Resources.enter914);
+                    sceneSound.Play();
                     outputLabel.Text = "As you continue to explore the facility you find a room label SCP - 914. It has a intake and output. You decide to place your keycard inside the machine. Which setting do you want it to set too?";
                     redLabel.Text = "Rough";
                     blueLabel.Text = "Very Fine";
@@ -218,6 +238,8 @@ namespace BreachAdventureGame
                     break;
                 case 15:
                     sceneImage.BackgroundImage = Properties.Resources.dust;
+                    sceneSound = new SoundPlayer(Properties.Resources.machineOn);
+                    sceneSound.Play();
                     outputLabel.Text = "Your keycard become to dust. You feel so disbelief. You didn't notices the statue snaps your neck behind you. \"Subject D-9341: Fatal cervical fracture. Assumed to be attacked by SCP-173.\" Do you want to try again?";
                     redLabel.Text = "Yes";
                     blueLabel.Text = "No";
@@ -225,6 +247,8 @@ namespace BreachAdventureGame
                     break;
                 case 16:
                     sceneImage.BackgroundImage = Properties.Resources.seniorScientist;
+                    sceneSound = new SoundPlayer(Properties.Resources.machineOn);
+                    sceneSound.Play();
                     outputLabel.Text = "Your keycard becomes a level 3 keycard. You now feel competent to move past the checkpoint. To be continued. Do you want to try again?";
                     redLabel.Text = "Yes";
                     blueLabel.Text = "No";
@@ -232,6 +256,8 @@ namespace BreachAdventureGame
                     break;
                 case 17:
                     sceneImage.BackgroundImage = Properties.Resources.omniCard;
+                    sceneSound = new SoundPlayer(Properties.Resources.machineOn);
+                    sceneSound.Play();
                     outputLabel.Text = "Your keycard become an Omni keycard! You can open any door in the facility! Do you want to nuke the facility, or escape? ";
                     redLabel.Text = "Nuke";
                     blueLabel.Text = "Escape";
@@ -239,6 +265,8 @@ namespace BreachAdventureGame
                     break;
                 case 18:
                     sceneImage.BackgroundImage = Properties.Resources.playingCard;
+                    sceneSound = new SoundPlayer(Properties.Resources.machineOn);
+                    sceneSound.Play();
                     outputLabel.Text = "Your keycard becomes a playing card. You feel so disbelief, you didn't notices the statue snaps your neck behind you. \"Subject D-9341: Fatal cervical fracture. Assumed to be attacked by SCP-173.\" Do you want to try again?";
                     redLabel.Text = "Yes";
                     blueLabel.Text = "No";
@@ -246,14 +274,17 @@ namespace BreachAdventureGame
                     break;
                 case 19:
                     sceneImage.BackgroundImage = Properties.Resources.warhead;
+                    sceneSound = new SoundPlayer(Properties.Resources.tacticalNukeCountdown);
+                    sceneSound.Play();
                     outputLabel.Text = "A countdown starts as soon as you give access to active the nuke with your Omni keycard.";
                     redLabel.Text = "";
                     blueLabel.Text = "";
                     greenLabel.Text = "Continue";
-                //    Thread.Sleep(2000);
                     break;
                 case 20:
                     sceneImage.BackgroundImage = Properties.Resources.gateA;
+                    sceneSound = new SoundPlayer(Properties.Resources.freedomTheme);
+                    sceneSound.Play();
                     outputLabel.Text = "You use your Omni keycard to grand items/firearms/scp objects to aid your escape. After some time you finally make it to the surface breathing in the fresh air. Nice job! Do you want to try again?";
                     redLabel.Text = "Yes";
                     blueLabel.Text = "No";
@@ -261,12 +292,16 @@ namespace BreachAdventureGame
                     break;
                 case 21:
                     sceneImage.BackgroundImage = Properties.Resources.nuke;
+                    sceneSound = new SoundPlayer(Properties.Resources.Nuke_Explosion);
+                    sceneSound.Play();
                     outputLabel.Text = "You died...The fate of the SCPS are unknown. Do you want to try again?";
                     redLabel.Text = "Yes";
                     blueLabel.Text = "No";
                     greenLabel.Text = "";
                     break;
                 case 99:
+                    sceneSound = new SoundPlayer(Properties.Resources.endBeep);
+                    sceneSound.Play();
                     outputLabel.Text = "Thanks for playing!";
                     redLabel.Text = "";
                     blueLabel.Text = "";
